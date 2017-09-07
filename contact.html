@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>बेलदार समाज एप्लिकेशन</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='custom.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2">
+
+                    <h1><center>बेलदार समाज एप्लिकेशन  </h1></center>
+
+                    <center><p class="lead">आपले बहुमूल्य मार्गदर्शन येथे नोंदवा</p></center>
+                 
+
+
+                    <form id="contact-form" method="post" action="contact-2.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">नावं *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="येथे आपले नावं  लिहा *" required="required" data-error="नावं आव्यश्यक आहे.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">आडनाव *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="येथे आपले आडनाव लिहा *" required="required" data-error="आडनावआव्यश्यक आहे..">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">ई-मेल  </label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="येथे आपला ई-मेल लिहा " >
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">फोन नंबर *</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="येथे आपला फोन नंबर लिहा " required="required" data-error="वैध फोन नंबर आवश्यक आहे.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">संदेश *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="येथे आमच्या साठी आपला संदेश लिहा   " rows="4" required="required" data-error="संदेश रिकामा आहे.   "></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> ह्या फिल्ड्स आवश्यक आहेत <br><a href="index.html" >एप्लिकेशन च्या  परिचय पेज वर जाण्यासाठी येथे क्लिक करा.</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div><!-- /.8 -->
+
+            </div> <!-- /.row-->
+
+        </div> <!-- /.container-->
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="validator.js"></script>
+        <script src="contact-2.js"></script>
+    </body>
+</html>
